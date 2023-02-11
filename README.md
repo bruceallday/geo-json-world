@@ -5,7 +5,7 @@ An open GEO-JSON object with vector maps for every country.
 ```javascript
 const getData = async () => {
   const result = await fetch(
-    https://brucealldday.github.io/geo-json-world/custom.geo.json
+    "https://raw.githubusercontent.com/bruceallday/geo-json-world/master/custom.geo.json"
   )
   const data = await result.json()
   return data
